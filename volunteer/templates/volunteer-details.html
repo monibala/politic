@@ -1,0 +1,147 @@
+{% extends 'base.html' %}  
+{% block body %} 
+{% load static %}        
+        <!-- Start Page Title Area -->
+        <div class="page-title">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <h3>Volunteer Details</h3>
+                        
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>/</li>
+                            <li>Volunteer Details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Title Area -->
+        
+        <!-- Start Volunteer Details Area -->
+        <section class="volunteer-details-area ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="volunteer-details-img">
+                            <img src="{% static 'assets/img/team-img1.jpg' %}" alt="team-img">
+                        </div>
+                        
+                        <ul class="social">
+                            <li><a href="#" class="icofont-facebook"></a></li>
+                            <li><a href="#" class="icofont-twitter"></a></li>
+                            <li><a href="#" class="icofont-linkedin"></a></li>
+                            <li><a href="#" class="icofont-instagram"></a></li>
+                            <li><a href="#" class="icofont-google-plus"></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-9 col-md-8">
+                        <div class="volunteer-details">
+                            <h3>Adam Smith</h3>
+                            <span>Web Developer</span>
+
+                            <p> Nullam repudiare liberavisse eos ad, adhuc labore mel ad. Nonumy audiam vidisse at mea, eum in saperet pertinax scriptorem. Elitr consectetuer eu his, pri quas albucius hendrerit in, labores copiosae <b><a href="#">complectitur</a></b> ei pro. Ei mollis fabellas probatus estius etiam ea pri malis dolores usu.</p>
+
+                            <blockquote class="blockquote">
+                                <p class="mb-0"><i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, <b><a href="#">consectetur</a></b> adipiscing elit. Integer posuere erat a ante."</i></p>
+                                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                            </blockquote>
+
+                            <p> Nullam repudiare liberavisse eos ad, adhuc labore mel ad. Nonumy audiam vidisse at mea, eum in saperet pertinax scriptorem. Elitr consectetuer eu his, pri quas albucius hendrerit in, labores <b><a href="#">copiosae complectitur</a></b> ei pro. Ei mollis fabellas probatus estius etiam ea pri malis dolores usu.</p>
+
+                            <div class="volunteer-contact-info">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12">
+                                        <div class="box">
+                                            <i class="icofont-google-map"></i>
+                                            <p>184 Collins Street West Victoria, United States</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12">
+                                        <div class="box">
+                                            <i class="icofont-phone"></i>
+                                            <p><a href="#">+048545888556</a></p>
+                                            <p><a href="#">+048545888556</a></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12">
+                                        <div class="box">
+                                            <i class="icofont-envelope"></i>
+                                            <p><a href="#"><span class="__cf_email__" data-cfemail="37445a5e435f774e58424553585a565e591954585a">[email&#160;protected]</span></a></p>
+                                            <p><a href="#"><span class="__cf_email__" data-cfemail="ec8189ac8d888d819f81859884c28f8381">[email&#160;protected]</span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="quick-contact">
+                                <h4>Quick Contact</h4>
+                                
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Name">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Email Address">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Number">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Subject">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-group">
+                                                <textarea cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 col-md-12">
+                                            <button type="submit" class="btn btn-primary">Submit Now</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Volunteer Area Details -->
+        
+		<!-- jQuery Min JS -->
+		<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'assets/js/jquery.min.js' %}"></script>
+		<!-- Popper Min JS -->
+		<script src="{% static 'assets/js/popper.min.js' %}"></script>
+		<!-- Bootstrap Min JS -->
+		<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+		<!-- Owl Carousel Min Js -->
+        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+        <!-- Magnific Popup JS -->
+        <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+        <!-- MixitUp JS -->
+        <script src="{% static 'assets/js/jquery.mixitup.min.js' %}"></script>
+		<!-- Jquery Menu JS -->
+		<script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
+		<!-- WoW JS -->
+		<script src="{% static 'assets/js/wow.js' %}"></script>
+		<!-- Main JS -->
+		<script src="{% static 'assets/js/main.js' %}"></script>
+     {% endblock %}
